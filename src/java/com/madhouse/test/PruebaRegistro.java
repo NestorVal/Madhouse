@@ -17,10 +17,9 @@ public class PruebaRegistro {
     //PRUEBA ELIMINAR
     
     /* public static void main(String[] args) {
-        // 1. Instanciamos el DAO
+       
     UsuarioDAO dao = new UsuarioDAO();
-    
-    // Elegimos el ID de uno de los "Nestores" duplicados que vimos en tu consola
+
     int idABorrar = 1; 
 
     if (dao.eliminarUsuario(idABorrar)) {
@@ -34,7 +33,7 @@ public class PruebaRegistro {
    //PRUEBA ACTUALIZAR
     
     /* public static void main(String[] args) {
-        // 1. Instanciamos el DAO
+ 
     UsuarioDAO dao = new UsuarioDAO();
     Usuario usuario = new Usuario();
     usuario.setIdUsuario(2);
@@ -45,11 +44,11 @@ public class PruebaRegistro {
     usuario.setContrasena("12345");
     usuario.setTelefono("3001234567");
     usuario.setDireccion("Calle 123");
-    usuario.setFechaNacimiento(new java.util.Date()); // Fecha actual
+    usuario.setFechaNacimiento(new java.util.Date());
     usuario.setRol("Cliente");
-    // 3. Intentamos registrar
+   
     if (dao.actualizarUsuario(usuario)) {
-        System.out.println("¡Usuario actualizado exitosamente en la base de datos!");
+        System.out.println("Usuario actualizado exitosamente en la base de datos");
     } else {
         System.out.println("Hubo un error al intentar actualizar el usuario.");
     }
@@ -79,6 +78,7 @@ for (Usuario usuarioActual : listaObtenida) {
     
     UsuarioDAO dao = new UsuarioDAO();
     Usuario nuevoUsuario = new Usuario();
+    
     nuevoUsuario.setNombre("Nestor");
     nuevoUsuario.setApellido("Rubiano");
     nuevoUsuario.setCorreo("nestorRubiano@test.com");

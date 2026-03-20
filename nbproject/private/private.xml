@@ -3,10 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Documents/NetBeansProjects/Madhouse/src/java/modelo/Usuario.java</file>
-            <file>file:/D:/Documents/NetBeansProjects/Madhouse/src/java/test/PruebaRegistro.java</file>
-            <file>file:/D:/Documents/NetBeansProjects/Madhouse/src/java/config/Conexion.java</file>
-            <file>file:/D:/Documents/NetBeansProjects/Madhouse/src/java/modelo/UsuarioDAO.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/Madhouse/src/java/com/madhouse/modelo/UsuarioServlet.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/Madhouse/src/java/com/madhouse/modelo/LoginServlet.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/Madhouse/web/login.jsp</file>
+            <file>file:/D:/Documents/NetBeansProjects/Madhouse/src/java/com/madhouse/modelo/Usuario.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/Madhouse/web/index.jsp</file>
+            <file>file:/D:/Documents/NetBeansProjects/Madhouse/src/java/com/madhouse/dao/UsuarioDAO.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/Madhouse/web/register.jsp</file>
         </group>
     </open-files>
 </project-private>
